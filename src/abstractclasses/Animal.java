@@ -12,6 +12,7 @@ package abstractclasses;
      }
      public abstract void shedHair();
  }
+
 public abstract class Animal {
     protected String type;
     private String size;
@@ -22,6 +23,7 @@ public abstract class Animal {
         this.size = size;
         this.weight = weight;
     }
+
 
     public abstract void move (String speed);
     public abstract void makeNoise();
