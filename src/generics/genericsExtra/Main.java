@@ -47,7 +47,7 @@ public class Main {
 //        QueryList<Employee> employeeList = new QueryList<>();  neprojde protoze to musi jeste inheritovat Student classu
     }
 
-    public static void printMoreLists(List<? extends Student> students) {
+    public static void printMoreLists(List<? extends Student> students) { //nebo super for lowerbound
 
 //        Student last = students.get(students.size()-1);
 //        students.set(0,last); dont know which lpastudent or student to use that why error
