@@ -75,8 +75,8 @@ public class Main {
                 });
         System.out.println(Arrays.toString(emptyStrings));
 
-        String[] names = {"Ann","Bob","Carol","David","Ed","Fred"}; //Supplier returns an instance of something
-        String[] randomList = randomlySelectedValues(15,names, () -> new Random().nextInt(0, names.length));
+        String[] names = {"Ann", "Bob", "Carol", "David", "Ed", "Fred"}; //Supplier returns an instance of something
+        String[] randomList = randomlySelectedValues(15, names, () -> new Random().nextInt(0, names.length));
         System.out.println(Arrays.toString(randomList));
     }
 
@@ -91,7 +91,7 @@ public class Main {
         consumer.accept(t1, t2);
     }
 
-    public static String[] randomlySelectedValues (int count, String[] values, Supplier<Integer> s){ //supplier
+    public static String[] randomlySelectedValues(int count, String[] values, Supplier<Integer> s) { //supplier
         String[] selectedValues = new String[count];
         for (int i = 0; i < count; i++) {
             selectedValues[i] = values[s.get()];
