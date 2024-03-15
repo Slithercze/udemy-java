@@ -16,7 +16,7 @@ public class BaseClass {
         System.out.println("[BaseClass.mandatoryMethod]: NON-NEGOTIABLE");
     }
 
-    public static void recommendedStatic(){
+    public static void recommendedStatic(){ //adding final to this method wont let us hide it in child class
         System.out.println("[BaseClass.recommendedStatic] BEST Way to Do it");
         optionalStatic();
         mandatoryStatic();
