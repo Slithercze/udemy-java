@@ -4,8 +4,6 @@ import finalExplored.ImmutableClasses.PersonImmutable;
 import finalExplored.ImmutableClasses.external.domain.LivingPerson;
 import finalExplored.ImmutableClasses.hacker.PersonOfInterest;
 
-import java.util.Arrays;
-
 public class MainImmutable {
 
     public static void main(String[] args) {
