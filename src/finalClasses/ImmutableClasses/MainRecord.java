@@ -1,4 +1,4 @@
-package finalExplored.ImmutableClasses;
+package finalClasses.ImmutableClasses;
 
 import java.util.Arrays;
 

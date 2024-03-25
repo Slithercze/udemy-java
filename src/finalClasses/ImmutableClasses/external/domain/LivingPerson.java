@@ -1,6 +1,6 @@
-package finalExplored.ImmutableClasses.external.domain;
+package finalClasses.ImmutableClasses.external.domain;
 
-import finalExplored.ImmutableClasses.PersonImmutable;
+import finalClasses.ImmutableClasses.PersonImmutable;
 
 import java.util.Arrays;
 

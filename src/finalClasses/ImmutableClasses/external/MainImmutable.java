@@ -1,8 +1,8 @@
-package finalExplored.ImmutableClasses.external;
+package finalClasses.ImmutableClasses.external;
 
-import finalExplored.ImmutableClasses.PersonImmutable;
-import finalExplored.ImmutableClasses.external.domain.LivingPerson;
-import finalExplored.ImmutableClasses.hacker.PersonOfInterest;
+import finalClasses.ImmutableClasses.PersonImmutable;
+import finalClasses.ImmutableClasses.external.domain.LivingPerson;
+import finalClasses.ImmutableClasses.hacker.PersonOfInterest;
 
 public class MainImmutable {
 

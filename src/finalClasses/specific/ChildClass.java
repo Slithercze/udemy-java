@@ -1,6 +1,6 @@
-package finalExplored.specific;
+package finalClasses.specific;
 
-import finalExplored.generic.BaseClass;
+import finalClasses.generic.BaseClass;
 
 public class ChildClass extends BaseClass {
 

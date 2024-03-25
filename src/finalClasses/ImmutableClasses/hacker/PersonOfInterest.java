@@ -1,6 +1,6 @@
-package finalExplored.ImmutableClasses.hacker;
+package finalClasses.ImmutableClasses.hacker;
 
-import finalExplored.ImmutableClasses.PersonImmutable;
+import finalClasses.ImmutableClasses.PersonImmutable;
 
 public class PersonOfInterest extends PersonImmutable {
 

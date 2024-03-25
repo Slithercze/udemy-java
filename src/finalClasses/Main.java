@@ -1,8 +1,8 @@
-package finalExplored;
+package finalClasses;
 
-import finalExplored.generic.BaseClass;
-import finalExplored.specific.ChildClass;
-import finalExplored.util.Logger;
+import finalClasses.generic.BaseClass;
+import finalClasses.specific.ChildClass;
+import finalClasses.util.Logger;
 
 public class Main {
 

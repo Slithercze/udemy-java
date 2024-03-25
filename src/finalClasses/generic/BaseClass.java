@@ -1,4 +1,4 @@
-package finalExplored.generic;
+package finalClasses.generic;
 
 public class BaseClass {
 
