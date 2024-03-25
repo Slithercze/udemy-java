@@ -28,8 +28,8 @@ public class Main {
         System.out.println("------------------------------------------------------------");
         PirateGame.getTowns(1).forEach(System.out::println);
 
-        var console = new GameConsole<>(new PirateGame("The Pirate Game"));
-        int playerIndex = console.addPlayer();
-        console.playGame(playerIndex);
+//        var console = new GameConsole<>(new PirateGame("The Pirate Game"));
+//        int playerIndex = console.addPlayer();
+//        console.playGame(playerIndex);
     }
 }
