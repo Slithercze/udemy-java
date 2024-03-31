@@ -18,6 +18,7 @@ public class Main {
 
         //resource must implement autocloseable or closeable interface
         //all resources are automatically closed when try block completes or gets exception
+        System.out.println("List");
         try (Stream<Path> paths = Files.list(path)) {
             paths
                     .map(Main::listDir)
@@ -26,7 +27,7 @@ public class Main {
             throw new RuntimeException(e);
         }
 
-        System.out.println("-----------------------");
+        System.out.println("----------------------- Walk is recursive");
 
         try (Stream<Path> paths = Files.walk(path, 2)) {
             paths
@@ -37,7 +38,7 @@ public class Main {
             throw new RuntimeException(e);
         }
 
-        System.out.println("-----------------------");
+        System.out.println("-----------------------Find same as walk but you can specify condition as argument");
 
         try (Stream<Path> paths = Files.find(path, Integer.MAX_VALUE,
                 (p, attr) -> attr.isRegularFile() && attr.size() > 300
