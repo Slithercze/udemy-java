@@ -53,6 +53,7 @@ public class Main {
 //            e.printStackTrace();
 //        }
 
+        //does not have line separator is more efficient
         try (BufferedWriter writer = Files.newBufferedWriter(Path.of("src/FilesIO/writingFiles/take2.csv"))) {
             writer.write(header);
             writer.newLine();
@@ -77,6 +78,7 @@ public class Main {
             throw new RuntimeException(e);
         }
 
+        //has line separator
         try (FileWriter writer = new FileWriter("src/FilesIO/writingFiles/take3.csv")){
             writer.write(header);
             writer.write(System.lineSeparator());
@@ -90,7 +92,7 @@ public class Main {
             e.printStackTrace();
         }
 
-
+        //PrintWriter access to printXXX methods
         try (PrintWriter writer = new PrintWriter("src/FilesIO/writingFiles/take4.txt")){
             writer.println(header);
             for (Student student : students){
