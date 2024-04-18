@@ -1,0 +1,6 @@
+Directory Contents: 
+C:\Users\Slith\Desktop\Programming-Java\udemy\src\FilesIO\fileManipulationChallenge\public\assets
+C:\Users\Slith\Desktop\Programming-Java\udemy\src\FilesIO\fileManipulationChallenge\public\assets\icons
+C:\Users\Slith\Desktop\Programming-Java\udemy\src\FilesIO\fileManipulationChallenge\public\assets\icons\index.txt
+C:\Users\Slith\Desktop\Programming-Java\udemy\src\FilesIO\fileManipulationChallenge\public\assets\index.txt
+Generated: 2024-04-18T22:30:27.583565300
