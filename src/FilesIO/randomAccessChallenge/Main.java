@@ -51,7 +51,7 @@ public class Main {
                     ra.writeDouble(salary);
                     readRecord(ra, employeeId);
                 } catch (NumberFormatException ignore){
-                    //ignored if invalid number
+                    //ignored if invalid number.
                 }
             }
         } catch (IOException e) {
