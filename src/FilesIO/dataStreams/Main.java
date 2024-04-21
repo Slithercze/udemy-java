@@ -35,7 +35,7 @@ class Player implements Serializable {
     }
 
     @Serial
-    @SuppressWarnings("unchecked")
+    @SuppressWarnings("unchecked") //its for collectedWeapons List
     private void readObject(ObjectInputStream stream) throws IOException, ClassNotFoundException {
 //        stream.defaultReadObject();
 //        bigScore = (bigScore == 0) ? 1_000_000_000L : bigScore;
