@@ -6,9 +6,9 @@ public class CustomThread extends Thread{
     public void run() {
 
         for (int i = 1; i <= 5; i++) {
-            System.out.println(" 1 ");
+            System.out.print(" 1 ");
             try {
-                Thread.sleep(500); //Adding a 1-second delay between each count
+                Thread.sleep(500); //Adding a 0.5-second delay between each count
             } catch (InterruptedException e){
                 e.printStackTrace();
             }
